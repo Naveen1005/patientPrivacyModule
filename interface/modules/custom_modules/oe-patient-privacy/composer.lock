@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "afdcda935a4874a47a69864d5dc70fe5",
+    "packages": [
+        {
+            "name": "mi-squared/mi-framework",
+            "version": "0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mi-squared/mi-framework.git",
+                "reference": "6795fb0b7e94303748cc070e9c98c020417ccaa6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mi-squared/mi-framework/zipball/6795fb0b7e94303748cc070e9c98c020417ccaa6",
+                "reference": "6795fb0b7e94303748cc070e9c98c020417ccaa6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mi2\\Utils": "src/",
+                    "Mi2\\DataTable": "src/",
+                    "Mi2\\Framework": "src/"
+                },
+                "classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ken Chapple",
+                    "email": "ken@mi-squared.com"
+                }
+            ],
+            "description": "A simple mvc framework",
+            "homepage": "https://mi-squared.com",
+            "keywords": [
+                "openemr"
+            ],
+            "support": {
+                "issues": "https://github.com/mi-squared/mi-framework/issues",
+                "source": "https://github.com/mi-squared/mi-framework/tree/0.1.5"
+            },
+            "time": "2021-10-29T16:13:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
